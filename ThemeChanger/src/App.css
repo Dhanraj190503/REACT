@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+/* Add Custom variant in the css when we add Darkmode in tailwind css in vite.config.js  */
 #root {
   max-width: 1280px;
   margin: 0 auto;
