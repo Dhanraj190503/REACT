@@ -1,5 +1,4 @@
 import { useState } from 'react'
-<<<<<<< HEAD
 import './App.css'
 import { Increment, AddbyAmount, Decrement } from './Slice/Slice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -51,8 +50,8 @@ function App() {
 
         </div>
     
-=======
-import reactLogo from './assets/react.svg'
+
+{/* import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -80,9 +79,10 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
->>>>>>> e75e02b25c1fc37eebe5c9d51c6e0a886424aa18
+      </p> */}
+
     </>
+
   )
 }
 

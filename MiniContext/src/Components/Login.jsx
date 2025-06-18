@@ -3,7 +3,7 @@ import UserContext from '../Context/UserContext'
 
 function Login() {
     const [username, setUsername] = useState('');
-    const [password, setPassword] = useState();
+    const [password, setPassword] = useState('');
 
     const {setUser} = useContext(UserContext);
     // useContext is a hook that allows you to use the context in your component

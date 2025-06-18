@@ -1,0 +1,12 @@
+@import "tailwindcss";
+body{ 
+  @apply bg-blue-950 w-full h-full;
+}
+
+label{
+  @apply font-bold text-blue-400 text-3xl
+}
+
+p{
+  @apply text-center font-bold text-3xl
+}
